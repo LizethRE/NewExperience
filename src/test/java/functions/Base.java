@@ -58,10 +58,6 @@ public class Base {
         webDriver.findElement(locator).click();
     }
 
-    public void submit(By locator) {
-        webDriver.findElement(locator).submit();
-    }
-
     public void clear(By locator) {
         webDriver.findElement(locator).clear();
     }
